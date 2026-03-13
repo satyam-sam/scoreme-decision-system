@@ -1,0 +1,3 @@
+{
+  "stages": ["received", "rule_evaluation", "decision", "completed"]
+}

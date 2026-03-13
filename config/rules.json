@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "name": "low_credit_score",
+      "condition": "credit_score < 600",
+      "action": "reject",
+      "message": "Credit score below 600"
+    },
+    {
+      "name": "low_income",
+      "condition": "income < 20000",
+      "action": "manual_review",
+      "message": "Income below 20000"
+    },
+    {
+      "name": "large_loan",
+      "condition": "loan_amount > income * 5",
+      "action": "reject",
+      "message": "Loan amount exceeds 5x income"
+    }
+  ]
+}
