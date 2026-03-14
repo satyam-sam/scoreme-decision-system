@@ -1,3 +1,6 @@
+import os
+print("MYSQL_HOST:", os.environ.get("MYSQL_HOST"))
+print("MYSQL_PORT:", os.environ.get("MYSQL_PORT"))
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uuid
