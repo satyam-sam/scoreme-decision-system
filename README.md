@@ -251,7 +251,7 @@ Reason : Income below minimum threshold
 
 ## 🚀 Live Demo
 ```
-http://127.0.0.1:8000/docs
+https://web-production-170d8.up.railway.app/docs
 ```
 
 ---
